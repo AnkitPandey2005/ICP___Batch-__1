@@ -8,13 +8,13 @@ public class Find_the_Index_of_the_First_Occurrence_in_a_String {
         int z=strStr(hayStack,needle);
         System.out.println(z);
     }
+    //1st Method :
     public static int strStr(String haystack, String needle) {
         return haystack.indexOf(needle);
     }
 }
 
-//2nd Method : :
-/*
+//2nd Method : 
 public class Find_the_Index_of_the_First_Occurrence_in_a_String {
     static void main() {
         Scanner in=new Scanner(System.in);
@@ -40,4 +40,4 @@ public class Find_the_Index_of_the_First_Occurrence_in_a_String {
         return true;
     }
 }
-* */
+
